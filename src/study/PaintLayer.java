@@ -3,6 +3,7 @@ package study;
 import java.awt.*;
 import java.util.ArrayList;
 
+// сущность холост
 public class PaintLayer extends Canvas {
 
     private Rect rect;
@@ -16,6 +17,7 @@ public class PaintLayer extends Canvas {
         this.lines = lines;
     }
 
+    // метод рисует прямоугольник и отрезки
     @Override
     public void paint(Graphics g) {
         g.drawRect(rect.getX(), rect.getY(),

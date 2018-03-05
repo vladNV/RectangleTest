@@ -1,6 +1,8 @@
 package study;
 
+// сущность отрезок
 public class Line {
+    // его координаты
     private int x0;
     private int x1;
     private int y0;
