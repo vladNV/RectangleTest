@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         View view = new View();
-        view.setSize(750, 800);
+        view.setSize(750, 1000);
         view.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         view.setVisible(true);
     }
